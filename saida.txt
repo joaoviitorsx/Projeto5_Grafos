@@ -1,0 +1,94 @@
+=== GRAFO DO BRASIL ===
+Vertices: 27
+Arestas : 50
+
+Lista de adjacencia:
+AC ( 0): AM(2), RO(20)
+AL ( 1): BA(4), PE(15), SE(24)
+AM ( 2): AC(0), MT(12), PA(13), RO(20), RR(21)
+AP ( 3): PA(13)
+BA ( 4): AL(1), ES(7), GO(8), MG(10), PE(15), PI(16), SE(24), TO(26)
+CE ( 5): PB(14), PE(15), PI(16), RN(19)
+DF ( 6): GO(8)
+ES ( 7): BA(4), MG(10), RJ(18)
+GO ( 8): BA(4), DF(6), MG(10), MS(11), MT(12), TO(26)
+MA ( 9): PA(13), PI(16), TO(26)
+MG (10): BA(4), ES(7), GO(8), MS(11), RJ(18), SP(25)
+MS (11): GO(8), MG(10), MT(12), PR(17), SP(25)
+MT (12): AM(2), GO(8), MS(11), PA(13), RO(20), TO(26)
+PA (13): AM(2), AP(3), MA(9), MT(12), RR(21), TO(26)
+PB (14): CE(5), PE(15), RN(19)
+PE (15): AL(1), BA(4), CE(5), PB(14), PI(16)
+PI (16): BA(4), CE(5), MA(9), PE(15), TO(26)
+PR (17): MS(11), SC(23), SP(25)
+RJ (18): ES(7), MG(10), SP(25)
+RN (19): CE(5), PB(14)
+RO (20): AC(0), AM(2), MT(12)
+RR (21): AM(2), PA(13)
+RS (22): SC(23)
+SC (23): PR(17), RS(22)
+SE (24): AL(1), BA(4)
+SP (25): MG(10), MS(11), PR(17), RJ(18)
+TO (26): BA(4), GO(8), MA(9), MT(12), PA(13), PI(16)
+
+=== RESULTADO DO DSATUR ===
+Ordem de coloracao (DSatur):
+ 1) BA (4)
+ 2) GO (8)
+ 3) MG (10)
+ 4) TO (26)
+ 5) MT (12)
+ 6) MS (11)
+ 7) PA (13)
+ 8) AM (2)
+ 9) PI (16)
+10) PE (15)
+11) CE (5)
+12) SP (25)
+13) AL (1)
+14) ES (7)
+15) RJ (18)
+16) MA (9)
+17) PB (14)
+18) PR (17)
+19) RO (20)
+20) AC (0)
+21) RN (19)
+22) RR (21)
+23) SE (24)
+24) SC (23)
+25) AP (3)
+26) DF (6)
+27) RS (22)
+
+Cor final de cada estado:
+AC ( 0) -> cor 1
+AL ( 1) -> cor 2
+AM ( 2) -> cor 3
+AP ( 3) -> cor 1
+BA ( 4) -> cor 1
+CE ( 5) -> cor 1
+DF ( 6) -> cor 1
+ES ( 7) -> cor 2
+GO ( 8) -> cor 2
+MA ( 9) -> cor 1
+MG (10) -> cor 3
+MS (11) -> cor 4
+MT (12) -> cor 1
+PA (13) -> cor 2
+PB (14) -> cor 2
+PE (15) -> cor 3
+PI (16) -> cor 2
+PR (17) -> cor 2
+RJ (18) -> cor 4
+RN (19) -> cor 3
+RO (20) -> cor 2
+RR (21) -> cor 1
+RS (22) -> cor 2
+SC (23) -> cor 1
+SE (24) -> cor 3
+SP (25) -> cor 1
+TO (26) -> cor 3
+
+Total de cores utilizadas: 4
+Coloracao valida? SIM
